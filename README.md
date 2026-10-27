@@ -1,19 +1,16 @@
-# 🦍 5PLATES — Turbo Gorilla · V4
+# 5PLATES V5 — Turbo Gorilla
 
-Application autonome (HTML/CSS/JS) prête pour GitHub Pages (dépôt `5plates`).
+Version GitHub Pages statique compatible PWA.
 
-## Déployer
-Uploader directement **le contenu** de ce dossier à la racine du dépôt GitHub, puis `Settings > Pages > Deploy from a branch > main / (root)`.
+- Charges suggérées **pour tous les exercices** (main lifts ET accessoires)
+- Charge réellement soulevée modifiable et enregistrée série par série
+- Historique des charges, répétitions et RPE utilisé pour recalculer les prescriptions
+- Premières suggestions d'isolation : essais calibrables, dépendants des machines
+- Squat low-bar 3× semaine ; deux OHP ; deux rowing ou option deux pulldowns ; sprint
+- Données locales : export JSON conseillé avant toute mise à jour
 
-## Fonctionnement
-- Squat low-bar **mardi, jeudi et samedi**. Pausé en complément samedi, hack mardi.
-- Développé militaire **mardi & samedi**, rowing **mardi & samedi** (remplaçable par pulldown lourd samedi), lat pulldown **jeudi**, couché serré jeudi.
-- Singles squat régulés au RPE et deload semaine 4, affûtage dernière semaine.
-- OHP, rowing, pulldown, couché serré et hack : charges **suggérées** à partir des dernières vraies séries validées (poids × reps × RPE). Tu peux modifier chaque poids saisi.
-- Isolations : charge libre, fourchettes de reps et RPE cible.
-- Les références initiales ne sont pas enregistrées comme séances effectuées.
-- Sauvegarde via localStorage + export/import JSON.
-- Installation hors ligne via service worker (après visite connectée).
+## Publication sur GitHub Pages
 
-## Attention
-Suggestion = formule prudente d'estimation de force, **pas de coach IA distant ni de garantie**. L'algorithme dépend de la qualité des RPE et des amplitudes saisies. Les tirages machines ne sont comparables que sur la même machine. Les données ne sont pas synchronisées entre appareils.
+Extrais l'archive puis glisse le contenu de ce dossier à la racine de ton dépôt GitHub (index.html et assets/ côte à côte). Ne téléverse pas l'archive ZIP elle-même. Active Settings > Pages > Deploy from a branch > main > /root.
+
+Après remplacement du site, recharge la page en ligne pour installer le nouveau cache `5plates-offline-v5`.

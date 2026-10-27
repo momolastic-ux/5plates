@@ -6,7 +6,7 @@
   "display": "standalone",
   "background_color": "#0b090b",
   "theme_color": "#0d0b0c",
-  "description": "Coach de force : squat 220, militaire, rowing et lat pulldown adaptatifs",
+  "description": "Coach de force V5 : tous les exercices ont une charge suggérée adaptative",
   "icons": [
     {
       "src": "./icon-192.png",
